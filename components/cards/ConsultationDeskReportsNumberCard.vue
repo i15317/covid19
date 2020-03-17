@@ -7,7 +7,9 @@
       :chart-data="querentsGraph"
       :date="Data.querents.date"
       :unit="$t('件.reports')"
-      :url="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/upfiles/sr5cfn200127213457_f03.pdf'"
+      :url="
+        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/upfiles/sr5cfn200127213457_f03.pdf'
+      "
     />
     <!-- 件.reports = 窓口相談件数 -->
   </v-col>
