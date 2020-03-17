@@ -10,11 +10,11 @@
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <h1 class="SideNavigation-Heading">
           <div class="SideNavigation-Logo">
-            <img src="/logo.svg" :alt="$t('東京都')" />
+            <img src="/logo.svg" :alt="$t('香川県')" />
           </div>
           {{ $t('新型コロナウイルス感染症') }}
           <br />
-          {{ $t('対策サイト') }}
+          {{ $t('対策サイト（非公式）') }}
         </h1>
       </nuxt-link>
     </header>
@@ -44,7 +44,7 @@
       </nav>
       <v-footer class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
-          <a
+          <!-- <a
             href="https://line.me/R/ti/p/%40822sysfc"
             target="_blank"
             rel="noopener"
@@ -64,9 +64,9 @@
             rel="noopener"
           >
             <img src="/facebook.png" alt="Facebook" />
-          </a>
+          </a>-->
           <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/i15317/covid19"
             target="_blank"
             rel="noopener"
           >
@@ -132,15 +132,22 @@ export default Vue.extend({
           title: this.$t('お子様をお持ちの皆様へ'),
           link: this.localePath('/parent')
         },
-        // {
-        //   icon: 'mdi-account-multiple',
-        //   title: this.$t('県民の皆様へ'),
-        //   link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
-        // },
+        {
+          icon: 'mdi-account-multiple',
+          title: this.$t('県民の皆様へ'),
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#kenmin01'
+        },
         {
           icon: 'mdi-domain',
           title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
+          link: this.localePath('/worker')
+        },
+        {
+          icon: 'mdi-account-multiple',
+          title: this.$t('海外からお越しの方へ（For tourists）'),
+          link:
+            'https://www.pref.kagawa.lg.jp/content/etc/subsite/kokusai/live_together/s10013200205165813.shtml',
           divider: true
         },
         // {
@@ -159,7 +166,29 @@ export default Vue.extend({
         //     'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
         // },
         {
-          title: this.$t('当サイトについて'),
+          title: this.$t('大阪市内のライブハウスのコンサート参加者へ'),
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#kenmin01'
+        },
+        {
+          title: this.$t('県施設の臨時休館などに関する情報'),
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml'
+        },
+        {
+          title: this.$t('県内のイベント中止に関する情報'),
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml'
+        },
+        {
+          title: this.$t(
+            '[厚労省]イベント開催に関する国民の皆様へのメッセージ'
+          ),
+          link: 'https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00002.html',
+          divider: true
+        },
+        {
+          title: this.$t('このサイトについて'),
           link: this.localePath('/about')
         },
         {

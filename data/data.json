@@ -2219,7 +2219,7 @@
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 0,
+                        "value": 1,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
