@@ -82,7 +82,7 @@
             >{{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}</a
           >
           {{ $t('の下に提供されています。') }}
-          <br />2020 Tokyo Metropolitan Government
+          <br />2020 Caffeine-Driven-Development PR Committee
         </small>
       </v-footer>
     </div>
