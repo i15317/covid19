@@ -46,20 +46,22 @@
 
     <div :class="[$style.SubtleBox, $style.Box2, $style.Center]">
       <div :class="$style.LargerText">
-        {{ $t('新型コロナコールセンター') }}
+        {{ $t('各保健所相談窓口') }}
       </div>
       <div :class="$style.SmallerText">
-        {{ $t('午前9時から午後9時（土日祝含む）') }}
+        {{ $t('午前8時15分から午後5時15分（休日除く）') }}
       </div>
 
       <div :class="$style.Tel">
-        <a :class="$style.TelLink" href="tel:0570550571">
-          <img
-            :class="$style.TelLinkIcon"
-            src="/flow/phone-24px.svg"
-            aria-hidden="true"
-          />
-          0570-550571
+        <a
+          href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hokensyo"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>{{ $t('各保健所の電話番号は福祉保健局HPへ') }}</span>
+          <v-icon size="18">
+            mdi-open-in-new
+          </v-icon>
         </a>
       </div>
     </div>

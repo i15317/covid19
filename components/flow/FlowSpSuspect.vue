@@ -21,7 +21,7 @@
 
     <div :class="$style.callcenter">
       <p :class="$style.fzLarge">
-        {{ $t('新型コロナコールセンター') }}
+        {{ $t('各保健所相談窓口') }}
       </p>
       <p :class="$style.open">
         {{ $t('午前9時から午後9時（土日祝含む）') }}
@@ -30,7 +30,10 @@
         <span :class="$style.icon">
           <PhoneIcon alt="Phone" />
         </span>
-        <a href="tel:0570550571">0570-550571</a>
+        <a
+          href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
+          >各相談窓口の一覧に飛びます
+        </a>
       </p>
     </div>
 

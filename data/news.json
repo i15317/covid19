@@ -1,14 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "3\/12\/2020",
-            "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/taisaku\/saigai\/1007261\/1007473.html",
-            "text": "東京都緊急対応策（第三弾）の発表"
+            "date":"3\/17\/2020",
+            "url":"http://www.jr-shikoku.co.jp/03_news/press/2020%2003%2017.pdf",
+            "text":"JR四国におけるコロナウイルス感染症による影響と一部列車運休のお知らせ"
+        },        
+        {
+            "date":"3\/17\/2020",
+            "url":"",
+            "text":"香川県における新型コロナウイルス感染者の確認について（リンク準備中）"
         },
         {
             "date": "3\/12\/2020",
-            "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/taisaku\/saigai\/1007261\/1007472.html",
-            "text": "都内医療機関、福祉施設等へのマスクの配布について"
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#outbreak",
+            "text": "香川県内での発生状況"
         }
     ]
 }

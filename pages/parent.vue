@@ -38,7 +38,9 @@ export default Vue.extend({
             ),
             this.$t('手洗い、咳エチケット等により、感染予防に努めてください。'),
             '<a href="https://tokyodouga.jp/lViN9C_BS-0.html" target="_blank" rel="noopener">' +
-              this.$t('【参考】感染症予防のための正しい手洗い方法（動画）') +
+              this.$t(
+                '【参考】東京都が公開した感染症予防のための正しい手洗い方法です（動画）'
+              ) +
               '</a>',
             this.$t(
               '規則正しい生活を心がけ、日常の健康管理に十分気を付けてください。'
@@ -49,9 +51,9 @@ export default Vue.extend({
           title: `2. ${this.$t('感染症を疑う場合の対応')}`,
           body: [
             this.$t('各保健所にご相談ください'),
-            '<a href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html" target="_blank" rel="noopener">' +
+            '<a href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml" target="_blank" rel="noopener">' +
               this.$t(
-                '「新型コロナウイルス感染症にかかる相談窓口について」（東京都福祉保健局）'
+                '「新型コロナウイルス感染症にかかる相談窓口について」（香川県）'
               ) +
               '</a>'
           ].join('<br />')
