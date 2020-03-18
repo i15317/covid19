@@ -5,8 +5,7 @@
         class="SideNavigation-HeadingIcon pc-none"
         :aria-label="$t('サイドメニュー項目を開く')"
         @click="openNavi"
-        >mdi-menu</v-icon
-      >
+      >mdi-menu</v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <h1 class="SideNavigation-Heading">
           <div class="SideNavigation-Logo">
@@ -24,8 +23,7 @@
         class="SideNavigation-ListContainerIcon pc-none"
         :aria-label="$t('サイドメニュー項目を閉じる')"
         @click="closeNavi"
-        >mdi-close</v-icon
-      >
+      >mdi-close</v-icon>
       <nav>
         <v-list :flat="true">
           <v-container
@@ -65,11 +63,7 @@
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>-->
-          <a
-            href="https://github.com/i15317/covid19"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://github.com/i15317/covid19" target="_blank" rel="noopener">
             <img src="/github.png" alt="GitHub" />
           </a>
         </div>
@@ -79,8 +73,7 @@
             rel="license"
             target="_blank"
             :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
-            >{{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}</a
-          >
+          >{{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}</a>
           {{ $t('の下に提供されています。') }}
           <br />2020 Caffeine-Driven-Development PR Committee
         </small>
@@ -165,6 +158,11 @@ export default Vue.extend({
         //   link:
         //     'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
         // },
+        {
+          title: this.$t('経済的支援について'),
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#kenmin08'
+        },
         {
           title: this.$t('大阪市内のライブハウスのコンサート参加者へ'),
           link:
