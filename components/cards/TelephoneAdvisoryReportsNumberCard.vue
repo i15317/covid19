@@ -7,7 +7,9 @@
       :chart-data="contactsGraph"
       :date="Data.contacts.date"
       :unit="$t('件.reports')"
-      :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000071'"
+      :url="
+        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/upfiles/sr5cfn200127213457_f02.pdf'
+      "
     />
     <!-- 件.reports = 窓口相談件数 -->
   </v-col>

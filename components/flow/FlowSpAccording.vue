@@ -64,7 +64,7 @@
         <!-- eslint-enable -->
       </span>
       <span :class="$style.break">
-        {{ $t('東京都健康安全研究センター等') }}
+        {{ $t('保健所経由で指示を受けてください') }}
       </span>
       <small :class="[$style.note, $style.fzSmall, $style.break]">
         {{
