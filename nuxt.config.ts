@@ -21,7 +21,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'http://covid19-kagawa.jp'
+        content: 'http://www.covid19-kagawa.jp'
       },
       {
         hid: 'twitter:card',

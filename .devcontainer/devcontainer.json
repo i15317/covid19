@@ -8,7 +8,8 @@
     ],
     "service": "app",
     "extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "octref.vetur"
     ],
     "postCreateCommand": "yarn install",
     "workspaceFolder": "/app",
