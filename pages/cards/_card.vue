@@ -143,12 +143,12 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: ogpImage
+          content: 'http://www.covid19-kagawa.jp/ogp.png'
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: ogpImage
+          content: 'http://www.covid19-kagawa.jp/ogp.png'
         }
       ]
     }
