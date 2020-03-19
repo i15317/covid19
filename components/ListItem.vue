@@ -16,9 +16,8 @@
         class="ListItem-Icon"
         :class="{ isActive: isActive(link) }"
         size="20"
+        >{{ icon }}</v-icon
       >
-        {{ icon }}
-      </v-icon>
       <CovidIcon
         v-else-if="checkIconType(icon) === 'covid'"
         class="ListItem-Icon"
@@ -26,6 +25,21 @@
       />
       <ParentIcon
         v-else-if="checkIconType(icon) === 'parent'"
+        class="ListItem-Icon"
+        :class="{ isActive: isActive(link) }"
+      />
+      <TrainIcon
+        v-else-if="checkIconType(icon) === 'train'"
+        class="ListItem-Icon"
+        :class="{ isActive: isActive(link) }"
+      />
+      <TouristIcon
+        v-else-if="checkIconType(icon) === 'tourist'"
+        class="ListItem-Icon"
+        :class="{ isActive: isActive(link) }"
+      />
+      <BagIcon
+        v-else-if="checkIconType(icon) === 'bag'"
         class="ListItem-Icon"
         :class="{ isActive: isActive(link) }"
       />
@@ -44,9 +58,8 @@
       size="12"
       role="img"
       :aria-hidden="false"
+      >mdi-open-in-new</v-icon
     >
-      mdi-open-in-new
-    </v-icon>
   </v-list-item>
 </template>
 
@@ -54,17 +67,23 @@
 import Vue from 'vue'
 import CovidIcon from '@/static/covid.svg'
 import ParentIcon from '@/static/parent.svg'
+import TrainIcon from '@/static/train.svg'
+import TouristIcon from '@/static/tourist.svg'
+import BagIcon from '@/static/bag.svg'
 
 enum iconType {
   none = 'none',
   material = 'material',
   covid = 'covid',
   parent = 'parent',
-  others = 'others'
+  others = 'others',
+  tourist = 'tourist',
+  train = 'train',
+  bag = 'bag'
 }
 
 export default Vue.extend({
-  components: { CovidIcon, ParentIcon },
+  components: { CovidIcon, ParentIcon, TrainIcon, TouristIcon, BagIcon },
   props: {
     link: {
       type: String,
@@ -94,6 +113,12 @@ export default Vue.extend({
         return iconType.covid
       } else if (icon === 'parent') {
         return iconType.parent
+      } else if (icon === 'train') {
+        return iconType.train
+      } else if (icon === 'bag') {
+        return iconType.bag
+      } else if (icon === 'tourist') {
+        return iconType.tourist
       } else {
         return iconType.others
       }

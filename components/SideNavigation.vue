@@ -5,7 +5,8 @@
         class="SideNavigation-HeadingIcon pc-none"
         :aria-label="$t('サイドメニュー項目を開く')"
         @click="openNavi"
-      >mdi-menu</v-icon>
+        >mdi-menu</v-icon
+      >
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <h1 class="SideNavigation-Heading">
           <div class="SideNavigation-Logo">
@@ -23,7 +24,8 @@
         class="SideNavigation-ListContainerIcon pc-none"
         :aria-label="$t('サイドメニュー項目を閉じる')"
         @click="closeNavi"
-      >mdi-close</v-icon>
+        >mdi-close</v-icon
+      >
       <nav>
         <v-list :flat="true">
           <v-container
@@ -63,7 +65,11 @@
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>-->
-          <a href="https://github.com/i15317/covid19" target="_blank" rel="noopener">
+          <a
+            href="https://github.com/i15317/covid19"
+            target="_blank"
+            rel="noopener"
+          >
             <img src="/github.png" alt="GitHub" />
           </a>
         </div>
@@ -73,7 +79,8 @@
             rel="license"
             target="_blank"
             :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
-          >{{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}</a>
+            >{{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}</a
+          >
           {{ $t('の下に提供されています。') }}
           <br />2020 Caffeine-Driven-Development PR Committee
         </small>
@@ -125,6 +132,7 @@ export default Vue.extend({
           title: this.$t('お子様をお持ちの皆様へ'),
           link: this.localePath('/parent')
         },
+
         {
           icon: 'mdi-account-multiple',
           title: this.$t('県民の皆様へ'),
@@ -137,10 +145,15 @@ export default Vue.extend({
           link: this.localePath('/worker')
         },
         {
-          icon: 'mdi-account-multiple',
+          icon: 'tourist',
           title: this.$t('海外からお越しの方へ（For tourists）'),
           link:
-            'https://www.pref.kagawa.lg.jp/content/etc/subsite/kokusai/live_together/s10013200205165813.shtml',
+            'https://www.pref.kagawa.lg.jp/content/etc/subsite/kokusai/live_together/s10013200205165813.shtml'
+        },
+        {
+          icon: 'mdi-train-variant',
+          title: this.$t('県内の交通機関への影響'),
+          link: this.localePath('/info'),
           divider: true
         },
         // {
