@@ -3,7 +3,7 @@
 
 [![香川県 新型コロナウイルス感染症対策サイト（非公式）](http://www.covid19-kagawa.jp/ogp.png)](http://covid19-kagawa.jp/)
 
-### 日本語 | [English](./README_EN.md) | [Español](./README_ES.md) | [한국어](./README_KO.md) | [繁體中文](./README_ZH_TW.md) | [简体中文](./README_ZH_CN.md) | [Tiếng Việt](./README_VI.md) | [ภาษาไทย](./README_TH.md) | [French](./README_FR.md)
+<!-- ### 日本語 | [English](./README_EN.md) | [Español](./README_ES.md) | [한국어](./README_KO.md) | [繁體中文](./README_ZH_TW.md) | [简体中文](./README_ZH_CN.md) | [Tiếng Việt](./README_VI.md) | [ภาษาไทย](./README_TH.md) | [French](./README_FR.md) -->
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
