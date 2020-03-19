@@ -2,7 +2,7 @@
   <v-app class="app">
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/logo.svg" alt="香川県" />
+        <img src="../static/kagawa_header.png" alt="香川県" />
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
@@ -91,13 +91,13 @@ export default Vue.extend({
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('香川県')
+          content: this.$tc('カフェイン駆動開発推奨委員会(学生のサークル)')
         },
         {
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県の情報をソースにデータを集め公開しているサイトです。'
           )
         },
         {
@@ -108,7 +108,7 @@ export default Vue.extend({
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
-            this.$t('対策サイト')
+            this.$t('対策サイト(非公式)')
         },
         {
           hid: 'og:title',
@@ -118,13 +118,13 @@ export default Vue.extend({
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
-            this.$t('対策サイト')
+            this.$t('対策サイト(非公式)')
         },
         {
           hid: 'og:description',
           name: 'og:description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県の情報をソースにデータを集め公開しているサイトです。'
           )
         },
         {
@@ -140,7 +140,7 @@ export default Vue.extend({
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
-            this.$t('対策サイト')
+            this.$t('対策サイト(非公式)')
         },
         {
           hid: 'twitter:image',

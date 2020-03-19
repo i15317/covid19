@@ -1,7 +1,7 @@
 <template>
   <v-app class="app-print">
     <div v-if="loading" class="loader">
-      <img src="/logo.svg" :alt="$t('香川県')" />
+      <img src="../static/kagawa_header.png" :alt="$t('香川県')" />
       <scale-loader color="#00A040" />
     </div>
     <v-container v-else>
