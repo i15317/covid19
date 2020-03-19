@@ -46,7 +46,6 @@ export default Vue.extend({
               this.$t('<li>' + '土讃線（普通列車）：多度津～琴平間' + '</li>') +
               this.$t('<li>' + '高徳線（普通列車）：高松～引田間' + '</li>') +
               '</ul>',
-
             '   <a href="https://www.jr-shikoku.co.jp/03_news/press/2020%2003%2010.pdf" target="_blank" rel="noopener">' +
               this.$t('一部観光列車で運休が発生しています') +
               '</a>',
@@ -76,7 +75,7 @@ export default Vue.extend({
     }
   },
   head: (): MetaInfo => ({
-    title: 'お子様をお持ちの皆様へ'
+    title: '県内の交通機関への影響'
   })
 })
 </script>
