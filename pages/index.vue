@@ -8,10 +8,18 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
+      :url="
+        'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#outbreak'
+      "
+      :text="$t('香川県内での発症者数は1名です（2020/3/20 15:00時点）')"
+    />
+    <static-info
+      class="mb-4"
       :url="localePath('/flow')"
       :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
       :btn-text="$t('相談の手順を見る')"
     />
+
     <v-row class="DataBlock">
       <confirmed-cases-details-card />
       <confirmed-cases-number-card />
@@ -21,7 +29,7 @@
       <consultation-desk-reports-number-card />
       <!--
       <metro-card />
-      <agency-card /> -->
+      <agency-card />-->
     </v-row>
   </div>
 </template>
