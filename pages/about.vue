@@ -122,7 +122,7 @@
     <TextCard :title="$t('免責事項')">
       {{
         $t(
-          '当サイトに掲載されている情報の正確性については万全を期していますが、東京都は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
+          '当サイトに掲載されている情報の正確性については万全を期していますが、カフェイン駆動開発推奨委員会は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
         )
       }}<br />
       <br />
@@ -138,7 +138,7 @@
         )
       }}
     </TextCard>
-    <TextCard :title="$t('データについて')">
+    <!-- <TextCard :title="$t('データについて')">
       <i18n
         tag="p"
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
@@ -152,7 +152,7 @@
           {{ $t('東京都オープンデータカタログサイト') }}
         </a>
       </i18n>
-    </TextCard>
+    </TextCard> -->
     <TextCard :title="$t('ソースコードについて')">
       {{
         $t(
@@ -161,7 +161,7 @@
       }}
       <i18n path="詳しくは、{githubRepo}をご確認ください。">
         <a
-          href="https://github.com/tokyo-metropolitan-gov/covid19"
+          href="https://github.com/i15317/covid19"
           target="_blank"
           rel="noopener"
           place="githubRepo"
