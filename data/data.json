@@ -2915,7 +2915,7 @@
         ]
     },
     "inspection_status_summary": {
-        "date": "2020\/03\/27 11:00",
+        "date": "2020\/04\/04 11:00",
         "attr": "検査実施人数（累計）",
         "value": -1,
         "children": [
@@ -2935,7 +2935,7 @@
             }
         ]
     },
-    "lastUpdate": "2020\/03\/27 12:00",
+    "lastUpdate": "2020\/04\/04 12:00",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 320,

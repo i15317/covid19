@@ -33,7 +33,7 @@ export default Vue.extend({
         {
           title: `1. ${this.$t('JR四国')}`,
           body: [
-            '   <a href="https://www.jr-shikoku.co.jp/03_news/press/20200316.pdf" target="_blank" rel="noopener">' +
+            '   <a href="http://www.jr-shikoku.co.jp/03_news/press/2020%2004%2003.pdf" target="_blank" rel="noopener">' +
               this.$t('一部定期列車で運休が発生しています') +
               '</a>',
             '<ul type="circle" style="border: 1pt red dashed;">' +
@@ -46,7 +46,7 @@ export default Vue.extend({
               this.$t('<li>' + '土讃線（普通列車）：多度津～琴平間' + '</li>') +
               this.$t('<li>' + '高徳線（普通列車）：高松～引田間' + '</li>') +
               '</ul>',
-            '   <a href="https://www.jr-shikoku.co.jp/03_news/press/2020%2003%2010.pdf" target="_blank" rel="noopener">' +
+            '   <a href="http://www.jr-shikoku.co.jp/03_news/press/2020%2003%2030%2001.pdf" target="_blank" rel="noopener">' +
               this.$t('一部観光列車で運休が発生しています') +
               '</a>',
             '<ul type="circle" style="border: 1pt olive dashed">' +
@@ -54,10 +54,11 @@ export default Vue.extend({
               this.$t('<li>' + '四国まんなか千年ものがたり' + '</li>') +
               this.$t('<li>' + 'ゆうゆうアンパンマンカー増結中止' + '</li>') +
               this.$t('<li>' + '瀬戸大橋アンパンマントロッコ' + '</li>') +
+              this.$t('<li>' + '志国土佐 時代の夜明けのものがたり' + '</li>') +
               '</ul>',
             '<strong style="border-bottom: 2pt red solid;margin:3pt;font-size:120%;">' +
               this.$t(
-                '快速マリンライナー、表記分を除いた本州方面・四国内の特急列車（及びその他普通列車は通常運転の予定です。'
+                '快速マリンライナー、表記分を除く本州・松山・高知・徳島方面の特急列車と普通列車は通常運転の予定です。'
               ) +
               '</strong>'
           ].join('<br />')
