@@ -66,9 +66,9 @@ export default Vue.extend({
         {
           title: `2. ${this.$t('ことでん（電車）')}`,
           body: [
-            this.$t('金曜夜間の一部の列車に運休が発生しています'),
-            '<a href="http://www.kotoden.co.jp/publichtm/kotoden/new/2020/gozen0zibintyuusi/index.html" target="_blank" rel="noopener">' +
-              this.$t('ことでんHPへ移動します') +
+            this.$t('4/29より琴平・長尾・志度線で減便を行います'),
+            '<a href="http://www.kotoden.co.jp/publichtm/kotoden/new/2020/korona_timetable/index.html" target="_blank" rel="noopener">' +
+              this.$t('詳しくはこちらへ') +
               '</a>'
           ].join('<br />')
         }
