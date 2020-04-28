@@ -38,7 +38,15 @@ export default Vue.extend({
               '</a>',
             '<ul type="circle" style="border: 1pt red dashed;">' +
               this.$t(
-                '<li>' + '高徳線（特急列車）特急うずしお号14・17号' + '</li>'
+                '<li>' +
+                  '高徳線（特急列車）特急うずしお号8・11・14・17号 全区間運転見合わせ' +
+                  '</li>' +
+                  '<li>' +
+                  '特急いしづち（一部）高松～多度津・宇多津間のみ運転（多度津以遠は特急しおかぜのみ運転）' +
+                  '</li>' +
+                  '<li>' +
+                  '特急ミッドナイトEXP（土曜）及び モーニングEXP（日曜日）全区間運転見合わせ' +
+                  '</li>'
               ) +
               '</ul>',
             '<ul type="circle" style="border: 1pt skyblue dashed">' +

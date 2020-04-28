@@ -11,7 +11,7 @@
       :url="
         'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#outbreak'
       "
-      :text="$t('香川県内での発症者数は計24名です（2020/4/18 8:00時点）')"
+      :text="$t('香川県内での発症者数は計28名です（2020/4/28 12:00時点）')"
     />
     <static-info
       class="mb-4"

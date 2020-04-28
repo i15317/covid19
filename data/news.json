@@ -1,23 +1,28 @@
 {
     "newsItems": [
         {
-            "date": "4\/17\/2020",
-            "url": "http://www.kotoden.co.jp/publichtm/kotoden/new/2020/korona_timetable/index.html",
+            "date": "4\/28\/2020",
+            "url": "http://www.kotoden.co.jp/publichtm/kotoden/new/2020/corona_timetable/index.html",
             "text": "新型コロナウイルス感染拡大防止に伴う減便について（ことでん）"
         },
         {
-            "date": "4\/17\/2020",
+            "date": "4\/28\/2020",
             "url": "https://www.jr-shikoku.co.jp/02_information/suspension/index.html",
             "text": "JR四国における新型コロナウイルス感染症による列車運休等影響とその対応について"
         },
         {
-            "date": "4\/17\/2020",
+            "date": "4\/28\/2020",
+            "url": "http://www.jr-shikoku.co.jp/03_news/press/2020%2004%2024%2001.pdf",
+            "text": "GW中における一部定期列車の運休について"
+        },
+        {
+            "date": "4\/28\/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#outbreak",
             "text": "香川県における新型コロナウイルス感染者の確認について"
         },
 
         {
-            "date": "3\/12\/2020",
+            "date": "4\/28\/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#outbreak",
             "text": "香川県内での発生状況"
         }
