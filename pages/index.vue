@@ -11,7 +11,16 @@
       :url="
         'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#outbreak'
       "
-      :text="$t('香川県内での発症者数は計28名です（2020/4/28 12:00時点）')"
+      :text="$t('香川県内での発症者数は計28名です（2020/5/16 12:00時点）')"
+    />
+    <static-info
+      class="mb-4"
+      :url="localePath('/info')"
+      :text="
+        $t(
+          '5/16～当面の間、瀬戸大橋線の快速マリンライナー・特急列車の一部が運休となります'
+        )
+      "
     />
     <static-info
       class="mb-4"
