@@ -33,7 +33,7 @@ export default Vue.extend({
         {
           title: `1. ${this.$t('JR四国')}`,
           body: [
-            '   <a href="http://www.jr-shikoku.co.jp/03_news/press/2020%2004%2003.pdf" target="_blank" rel="noopener">' +
+            '   <a href="https://www.jr-shikoku.co.jp/03_news/press/20200508_02.pdf" target="_blank" rel="noopener">' +
               this.$t('一部定期列車で運休が発生しています') +
               '</a>',
             '<ul type="circle" style="border: 1pt red dashed;">' +
@@ -57,8 +57,8 @@ export default Vue.extend({
               this.$t('<li>' + '土讃線（普通列車）：多度津～琴平間' + '</li>') +
               this.$t('<li>' + '高徳線（普通列車）：高松～引田間' + '</li>') +
               '</ul>',
-            '   <a href="http://www.jr-shikoku.co.jp/03_news/press/2020%2003%2030%2001.pdf" target="_blank" rel="noopener">' +
-              this.$t('一部観光列車で運休が発生しています') +
+            '   <a href="https://www.jr-shikoku.co.jp/03_news/press/20200511_spring.pdf" target="_blank" rel="noopener">' +
+              this.$t('臨時・観光列車で運休が発生しています') +
               '</a>',
             '<ul type="circle" style="border: 1pt olive dashed">' +
               this.$t('<li>' + '伊予灘ものがたり' + '</li>') +
